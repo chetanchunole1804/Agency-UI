@@ -1,0 +1,246 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bgColor: #28293e;
+  --bgColor2: #fdf0e9;
+  --buttonClr: #ef6d58;
+  --textclr1: #391400;
+  --border1: #f3d1bf;
+}
+body {
+  overflow-x: hidden;
+  font-family: 'Epilogue', sans-serif;
+}
+
+#menu {
+  display: none;
+}
+
+.custom-bullet.swiper-pagination-bullet-active {
+    background-color: var(--buttonClr);
+    transform: scale(1.3);
+    transition: transform 0.3s, background-color 0.3s;
+    font-size: 0;
+    border:none;
+  }
+
+  .custom-bullet.swiper-pagination-bullet{
+    font-size: 0;
+    margin-top: 100px;
+  }
+  
+
+@media only screen and (max-width: 768px) {
+  #navLinks {
+    display: none;
+  }
+  #menu {
+    display: block;
+  }
+  #logo {
+    position: relative;
+    left: 15px;
+  }
+  #navbar {
+    justify-content: left;
+  }
+
+  #homep1 {
+    padding: 0 10px;
+  }
+  #homehead {
+    font-size: 56px;
+  }
+  #profileData {
+    width: 50%;
+    /* margin-top: -20px; */
+  }
+  #star {
+    display: none;
+  }
+  #companyLogo {
+    flex-wrap: wrap;
+  }
+  #abouthead {
+    font-size: 42px;
+  }
+  #aboutPage {
+    flex-direction: column;
+    /* padding: 25px 10px; */
+    gap: 20px;
+  }
+  #aboutData {
+    width: 100%;
+    padding: 0;
+  }
+  #aboutBox {
+    flex-direction: column;
+  }
+  .Boxes {
+    width: 329px;
+    height: 176px;
+  }
+  #workpg {
+    flex-direction: column;
+    gap: 0px;
+    padding-bottom: 70px;
+  }
+  #workhead {
+    font-size: 40px;
+    width: 329px;
+  }
+  #workData {
+    width: 100%;
+    gap: 20px;
+    padding-bottom: 65px;
+  }
+  #workData2 {
+    width: 100%;
+  }
+  .fontwidth {
+    width: 65%;
+  }
+  #videoReel {
+    flex-direction: column;
+    gap: 40px;
+  }
+  #videoReelp1 {
+    width: 100%;
+  }
+  #videoReelhead {
+    font-size: 40px;
+  }
+  #features {
+    flex-direction: column-reverse;
+    padding: 0 10px;
+    /* padding: 0 10px 40px 10px; */
+    gap: 20px;
+  }
+  #featuresData {
+    width: 100%;
+    padding: 0 0 50px 0;
+  }
+  #features2 {
+    flex-direction: column;
+    padding-bottom: 25px;
+  }
+  #features2-1 {
+    width: 100%;
+    padding: 30px 10px;
+  }
+  #features2-2 {
+    flex-direction: column;
+  }
+  #servicesBox {
+    flex-direction: column;
+    padding-bottom: 0;
+  }
+  #servicebtn {
+    margin-top: -20px;
+  }
+  .boxSize {
+    width: 329px;
+    height: 400px;
+  }
+  #porthead {
+    font-size: 40px;
+    /* width: 100%; */
+  }
+  #portlist {
+    display: none;
+  }
+  #portlist2 {
+    display: block;
+  }
+  .portCard {
+    top: 72px;
+    left: 10px;
+  }
+  .portImg {
+    width: 329px;
+  }
+  #portImgBox {
+    flex-direction: column;
+  }
+  #offerData {
+    flex-direction: column;
+    padding: 70px 20px 10px 20px;
+  }
+  #offer {
+    height: 832px;
+  }
+  #offerModel {
+    height: 317px;
+  }
+  #offerStar {
+    top: -9%;
+    left: 1rem;
+  }
+  #offerModel {
+    height: 317px;
+    left: 10%;
+  }
+  #EventCardGrp {
+    flex-direction: column;
+    margin: 20px;
+  }
+  #EventCard {
+    width: 100%;
+  }
+  #swiperMb {
+    display: block;
+  }
+  #swiperDx {
+    display: none;
+  }
+  #founder {
+    flex-direction: column;
+    gap: 30px;
+  }
+  #fonder div {
+    width: 100%;
+  }
+  #founderData {
+    width: 100%;
+  }
+  #founderImg {
+    width: 100%;
+  }
+  .users {
+    width: 100%;
+  }
+  #pricing {
+    flex-direction: column;
+  }
+  #dropdown {
+    width: 100%;
+  }
+  #Faq {
+    flex-direction: column;
+  }
+  .AwardItem {
+    flex-direction: column;
+  }
+  #BlogItem {
+    flex-direction: column;
+    align-items: baseline;
+  }
+  #blogData {
+    flex-direction: column;
+  }
+  #helpData {
+    flex-direction: column-reverse;
+  }
+  #footer {
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0;
+    gap: 20px;
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+
+}
